@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Login</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Modal login -->
+  <!-- <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog"> -->
+
+  <p class="flag"> <%= error_msg %> </p>
+  <div class="modal-content">
+    <form action="\login" method="POST" class="formContent">
+      <h1 class="signinHeader">Login</h1>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" name="pass" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" name="check" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">I agree to service2u's Terms of Service, Privacy Policy and
+          Content Policies</label>
+      </div>
+      <button type="submit" class="btn btn-primary alignment" z>Submit</button>
+    </form>
+  </div>
+  <!-- </div>
+  </div> -->
+
+</body>
+
+</html>
